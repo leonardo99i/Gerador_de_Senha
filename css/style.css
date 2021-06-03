@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    font-family: var(--montserrat);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--azul-claro);
+}
+
+.input-box{
+    width: 450px;
+}
+
+.input-box h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.input-box input{
+    position: relative;
+    height: 60px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    color: var(--bg-chamada);
+    margin: 15px 0 20px;
+    outline: none;
+    font-size: 24px;
+    padding: 0 20px;
+    letter-spacing: 2px;
+    box-shadow: -4px -4px 5px rgba(255, 255, 255, 1),
+    inset 4px 4px 5px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 10px rgba(255, 255, 255, 1),
+    4px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-box input::placeholder{
+    letter-spacing: 0;
+}
+
+.input-box #btn{
+    position: relative;
+    background: #333;
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.input-box #btn:active{
+    background: #333;
+}
+
+.input-box #copia{
+    position: relative;
+    background: #333;
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.input-box #copia:active{
+    background: #333;
+}
+
+.input-box #limpar{
+    position: relative;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.input-box #limpar:active{
+    background: #333;
+}
+
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+footer{
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .copyright{
+    color: black;
+    font-size: 13px;
+    margin: 20px;
+  }
+  
+  .creditos{
+    color: black;
+    font-size: 13px;
+    margin: 20px;
+  }
