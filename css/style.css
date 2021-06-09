@@ -110,3 +110,18 @@ body{
     font-size: 13px;
     margin: 20px;
 }
+
+#linkedin:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    scale: 2%;
+}
+
+#github:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    scale: 2%;
+}
+
+#arquivo:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    scale: 2%;
+}
