@@ -6,9 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador de Senhas</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/base.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -20,14 +18,15 @@
 <body>
     <main>
         <div class="input-box">
-            <h1><bold>Gerando Senhas</bold></h1>
+            <h1>
+                <bold>Gerando uma Senhas</bold>
+            </h1>
             <input type="text" placeholder="Gerar Senha" id="password" readonly="">
             <button id="btn" onclick="getSenha()">Gerar</button>
-            <button id="copia">Copiar</button>
-            <button id="limpar" onclick="Limpa()" type="reset">Limpar</button>
+            <button id="copia" onclick="copiaSenha()">Copiar</button>
+            <button id="limpar" type="reset">Limpar</button>
         </div>
     </main>
-
     <footer>
         <p class="copyright">&copy; Copyright Leonardo Ribeiro Leonardi - 2021</p>
     </footer>

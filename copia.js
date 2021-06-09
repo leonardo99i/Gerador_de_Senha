@@ -1,7 +1,7 @@
-const textInput = document.getElementById('password');
-const copyButton = document.getElementById('copia');
-
-copyButton.addEventListener('click', () =>{
-    textInput.querySelector();
-    document.execCommand('copia')
-});
+function copiaSenha(){
+    let senhaCopiada = document.getElementById("password");
+    senhaCopiada.select();
+    senhaCopiada.setSelectionRange(0, 99999);
+    document.execCommand("copy");
+    alert("Senha Copiada!!!");
+}
