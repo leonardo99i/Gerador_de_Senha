@@ -1,4 +1,4 @@
-function getSenha() {
+function geraSenha() {
     var chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJLMNOPQRSTUVWXYZ!@#$%^&*+?:";
     var passwordLength = 16;
     var password = "";
