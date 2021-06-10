@@ -12,6 +12,10 @@ body{
     align-items: center;
     height: 100vh;
     background-color: var(--azul-claro);
+    width:90%;
+    margin: 0 auto;
+    min-width:600px;
+    max-width:2000px
 }
 
 .input-box{
