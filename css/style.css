@@ -106,6 +106,28 @@ body{
     scale: 2%;
 }
 
+.input-box #limpa{
+    position: relative;
+    background: #333;
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.input-box #limpa:active{
+    background: #333;
+}
+
+.input-box #limpa:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    scale: 2%;
+}
+
 .footer{
     text-align: center;
     padding: 40px 0;
