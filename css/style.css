@@ -46,84 +46,129 @@ body{
     4px 4px 5px rgba(0, 0, 0, 0.1);
 }
 
-.quantidade{
+.input-box fieldset{
     position: relative;
-    color: var(--branco);
-    cursor: pointer;
-    font-size: 24px;
-    display: inline-block;
-    padding: 10px 15px;
+    height: 60px;
+    width: 100%;
+    background: transparent;
     border-radius: 8px;
-    -webkit-transition-duration: 0.4s; 
-    transition-duration: 0.4s;
+    color: var(--bg-chamada);
+    margin: 15px 0 20px;
+    outline: none;
+    font-size: 18px;
+    padding: 0 20px;
+    letter-spacing: 2px;
+}
+
+.botoes{
+    margin: auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .input-box input::placeholder{
     letter-spacing: 0;
+    margin: 0 auto;
 }
 
-.input-box #gerar{
+.input-box #escolha{
+    margin: 0 auto;
     position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     background: #333;
     color: var(--branco);
     cursor: pointer;
     font-size: 24px;
-    display: inline-block;
     padding: 10px 15px;
     border-radius: 8px;
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
 }
 
-.input-box #gerar:active{
+.input-box #escolha:active{
     background: #333;
 }
 
-.input-box #gerar:hover{
+.input-box #escolha:hover{
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     scale: 2%;
 }
 
-.input-box #copia{
+.botoes #gerar{
+    margin: 0 auto;
     position: relative;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
     background: #333;
     color: var(--branco);
     cursor: pointer;
     font-size: 24px;
-    display: inline-block;
-    padding: 10px 15px;
-    border-radius: 8px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-}
-
-.input-box #copia:active{
-    background: #333;
-}
-
-.input-box #copia:hover{
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    scale: 2%;
-}
-
-.input-box #limpa{
-    position: relative;
-    background: #333;
-    color: var(--branco);
-    cursor: pointer;
-    font-size: 24px;
-    display: inline-block;
     padding: 10px 15px;
     border-radius: 8px;
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
 }
 
-.input-box #limpa:active{
+.botoes #gerar:active{
     background: #333;
 }
 
-.input-box #limpa:hover{
+.botoes #gerar:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    scale: 2%;
+}
+
+.botoes #copia{
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    background: #333;
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.botoes #copia:active{
+    background: #333;
+}
+
+.botoes #copia:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    scale: 2%;
+}
+
+.botoes #limpa{
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    background: #333;
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.botoes #limpa:active{
+    background: #333;
+}
+
+.botoes #limpa:hover{
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     scale: 2%;
 }
