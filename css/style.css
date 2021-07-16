@@ -23,7 +23,7 @@ body{
 }
 
 .input-box h1{
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     text-transform: uppercase;
 }
 
@@ -169,6 +169,31 @@ body{
 }
 
 .botoes #limpa:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    scale: 2%;
+}
+
+.botoes #saiba{
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    background: #333;
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.botoes #saiba:active{
+    background: #333;
+}
+
+.botoes #saiba:hover{
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     scale: 2%;
 }
