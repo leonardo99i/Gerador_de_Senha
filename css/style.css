@@ -68,6 +68,18 @@ body{
     display: flex;
 }
 
+.mais{
+    margin: auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.mais:hover{
+    text-decoration: underline;
+}
+
 .input-box input::placeholder{
     letter-spacing: 0;
     margin: 0 auto;
