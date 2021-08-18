@@ -15,11 +15,7 @@ body{
     width:90%;
     margin: 0 auto;
     min-width:600px;
-<<<<<<< HEAD
     max-width:2000px
-=======
-    max-width:2000px;
->>>>>>> gh-pages
 }
 
 .input-box{
@@ -27,7 +23,7 @@ body{
 }
 
 .input-box h1{
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
 }
 
@@ -50,166 +46,50 @@ body{
     4px 4px 5px rgba(0, 0, 0, 0.1);
 }
 
-.input-box fieldset{
-    position: relative;
-    height: 60px;
-    width: 100%;
-    background: transparent;
-    border-radius: 8px;
-    color: var(--bg-chamada);
-    margin: 15px 0 20px;
-    outline: none;
-    font-size: 18px;
-    padding: 0 20px;
-    letter-spacing: 2px;
-}
-
-.botoes{
-    margin: auto;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-.mais{
-    margin: auto;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-.mais:hover{
-    text-decoration: underline;
-}
-
 .input-box input::placeholder{
     letter-spacing: 0;
-    margin: 0 auto;
 }
 
-.input-box #escolha{
-    margin: 0 auto;
+.input-box #gerar{
     position: relative;
-    align-items: center;
-    justify-content: center;
-    display: flex;
     background: #333;
     color: var(--branco);
     cursor: pointer;
     font-size: 24px;
-    padding: 10px 15px;
-    border-radius: 8px;
-    -webkit-transition-duration: 0.4s; 
-    transition-duration: 0.4s;
-}
-
-.input-box #escolha:active{
-    background: #333;
-}
-
-.input-box #escolha:hover{
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    scale: 2%;
-}
-
-.botoes #gerar{
-    margin: 0 auto;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    display: inline-flex;
-    background: #333;
-    color: var(--branco);
-    cursor: pointer;
-    font-size: 24px;
-    padding: 10px 15px;
-    border-radius: 8px;
-    -webkit-transition-duration: 0.4s; 
-    transition-duration: 0.4s;
-}
-
-.botoes #gerar:active{
-    background: #333;
-}
-
-.botoes #gerar:hover{
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    scale: 2%;
-}
-
-.botoes #copia{
-    margin: 0 auto;
-    position: relative;
-    align-items: center;
-    justify-content: center;
     display: inline-block;
-    background: #333;
-    color: var(--branco);
-    cursor: pointer;
-    font-size: 24px;
     padding: 10px 15px;
     border-radius: 8px;
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
 }
 
-.botoes #copia:active{
+.input-box #gerar:active{
     background: #333;
 }
 
-.botoes #copia:hover{
+.input-box #gerar:hover{
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     scale: 2%;
 }
 
-.botoes #limpa{
-    margin: 0 auto;
+.input-box #copia{
     position: relative;
-    align-items: center;
-    justify-content: center;
+    background: #333;
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 24px;
     display: inline-block;
-    background: #333;
-    color: var(--branco);
-    cursor: pointer;
-    font-size: 24px;
     padding: 10px 15px;
     border-radius: 8px;
-    -webkit-transition-duration: 0.4s; 
+    -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
 
-.botoes #limpa:active{
+.input-box #copia:active{
     background: #333;
 }
 
-.botoes #limpa:hover{
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    scale: 2%;
-}
-
-.botoes #saiba{
-    margin: 0 auto;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    display: inline-flex;
-    background: #333;
-    color: var(--branco);
-    cursor: pointer;
-    font-size: 16px;
-    padding: 10px 15px;
-    border-radius: 8px;
-    -webkit-transition-duration: 0.4s; 
-    transition-duration: 0.4s;
-}
-
-.botoes #saiba:active{
-    background: #333;
-}
-
-.botoes #saiba:hover{
+.input-box #copia:hover{
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     scale: 2%;
 }

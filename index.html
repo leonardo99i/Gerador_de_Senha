@@ -8,13 +8,7 @@
     <title>Gerador de Senhas</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap" rel="stylesheet">
-<<<<<<< HEAD
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-=======
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
-        rel="stylesheet">
->>>>>>> gh-pages
     <link href="css/reset.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.ico">
     <link href="css/base.css" rel="stylesheet">
@@ -22,7 +16,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <script type="text/javascript" src="gerar.js"></script>
     <script type="text/javascript" src="copia.js"></script>
-    <script src="https://kit.fontawesome.com/ce94f90102.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="limpa.js"></script>
 </head>
 
 <body>
@@ -31,38 +25,16 @@
             <h1>
                 <bold>Gerar uma Senha</bold>
             </h1>
-            <fieldset class="input-box">
-                <h2>
-                    <legend><strong>Escolha a quantidade de Caracteres: </strong></legend>
-                </h2>
-                <br>
-                <select id="escolha" required>
-                    <option value="0" selected disabled>Selecionar:</option>
-                    <option value="8">8</option>
-                    <option value="16">16</option>
-                    <option value="32">32</option>
-                    <option value="40">40</option>
-                </select>
-            </fieldset>
-            <br>
-
-            <input type="text" placeholder="Sua senha é gerada aqui!" id="password" readonly="">
-            <div class="botoes">
-                <button id="gerar" onclick="geraSenha()">Gerar</button>
-                <button id="copia" onclick="copiaSenha()">Copiar</button>
-                <button type="reset" value="reset" id="limpa" onclick="window.location.reload()">Limpar</button>
-            </div>
-            <br>
-            <br>
-            <div class="mais">
-                <a href="saiba_mais.html" class="mais">Porque é importante cuidar das suas senhas?</a>
-            </div>
+            <input type="text" placeholder="Sua senha aqui!" id="password" readonly="">
+            <button id="gerar" onclick="geraSenha()">Gerar</button>
+            <button id="copia" onclick="copiaSenha()">Copiar</button>
         </div>
+        <br>
         <div class="footer">
             <p class="copyright">&copy; Copyright Leonardo Ribeiro Leonardi - 2021</p>
-            <a href="https://www.linkedin.com/in/leonardo-ribeiro-leonardi-4b66bb179/"><i class="fab fa-linkedin fa-2x"
-                    id="linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/leonardo-ribeiro-leonardi-4b66bb179/"><i class="fab fa-linkedin fa-2x" id="linkedin"></i></a>
             <a href="https://github.com/Leo99z"><i class="fab fa-github fa-2x" id="github"></i></a>
+            <a href="file/Currículo_Leonardo Ribeiro Leonardi.pdf" download="Currículo_Leonardo Ribeiro Leonardi.pdf"><i class="fas fa-file-contract fa-2x" id="arquivo"></i></a>
         </div>
     </main>
 </body>

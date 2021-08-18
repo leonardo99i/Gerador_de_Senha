@@ -3,5 +3,5 @@ function copiaSenha(){
     senhaCopiada.select();
     senhaCopiada.setSelectionRange(0, 99999);
     document.execCommand("copy");
-    alert("Senha Copiada com sucesso!!!");
+    alert("Senha Copiada!!!");
 }
