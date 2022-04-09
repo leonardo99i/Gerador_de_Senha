@@ -7,6 +7,10 @@ function geraSenha(){
     var select = document.getElementById('escolha');
     var value = select.options[select.selectedIndex].value;
     var senha = "";
+
+    if(document.getElementById('password').value == ""){
+    alert("Por favor, escolha a quantidade de caracteres");
+    }
         
     for(var i = 0; i < value; i++) {
       var randomNumber = Math.floor(Math.random() * juncao.length);
